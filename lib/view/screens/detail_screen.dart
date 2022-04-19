@@ -21,6 +21,7 @@ class DetailsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
+        backgroundColor: Colors.transparent,
         actions: [
           IconButton(
               onPressed: () {
@@ -52,7 +53,7 @@ class DetailsScreen extends StatelessWidget {
         width: _size.width,
         height: _size.height,
         padding: const EdgeInsets.all(15),
-        color: Colors.white,
+        color: const Color(0xff31305a),
         child: Column(
           children: <Widget>[
             columDiv(height: _size.height * 0.02),
